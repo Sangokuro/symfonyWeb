@@ -78,4 +78,34 @@ class ProjectController extends AbstractController
             'controller_name' => 'ProjectController',
         ]);
     }
+
+    /**
+     * @Route("/creer_offre", name="creer_offre")
+     */
+    public function creer_offre(): Response
+    {
+        return $this->render('project/creer_offre.html.twig', [
+            'controller_name' => 'ProjectController',
+        ]);
+    }
+
+    /**
+     * @Route("/creer_entreprise", name="creer_entreprise")
+     */
+    public function creer_entreprise(): Response
+    {
+        return $this->render('project/creer_entreprise.html.twig', [
+            'controller_name' => 'ProjectController',
+        ]);
+    }
+
+    /**
+     * @Route("/creer_compte", name="creer_compte")
+     */
+    public function creer_compte(): Response
+    {
+        return $this->render('project/creer_compte.html.twig', [
+            'controller_name' => 'ProjectController',
+        ]);
+    }
 }

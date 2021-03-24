@@ -1,5 +1,6 @@
 ul {
     text-align: center;
+    list-style: none;
 }
 
 li {
@@ -19,58 +20,4 @@ li {
     margin-left: auto;
     text-align: left;
     background: #C0C0C0;
-}
-
-ul {
-    list-style: none;
-}
-
-.cacher {
-    display: none;
-}
-
-.headerheight {
-    height: 200px;
-    text-align: center;
-}
-
-.borderB {
-    border: 1px solid #000;
-}
-
-
-/*--------------- Common ---------------*/
-
-body {
-    background: #eee !important;
-    width: 100%;
-    font-family: 'Happy Monkey', cursive;
-    scroll-behavior: smooth;
-}
-
-
-/*---------------- header ---------------*/
-
-.header {
-    background-color: #fff;
-    text-align: center;
-    padding: 20px;
-    font-family: "arial";
-}
-
-
-/*---------------- menu -------------------*/
-
-
-/*--------------- Main block ---------------*/
-
-
-/*----------------- bouton to the top ----------------------*/
-
-
-/*---------------- Pied de page ---------------*/
-
-.footer1 {
-    FONT-family: "arial";
-    text-align: center;
 }

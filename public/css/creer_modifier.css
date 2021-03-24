@@ -1,0 +1,31 @@
+.evidence {
+    font-weight: bold;
+    border: 1px solid #000;
+    background-color: #ccc;
+    padding: 5px;
+    margin: 25px;
+}
+
+.borderB {
+    border: 1px solid #000;
+}
+
+.center {
+    text-align: center;
+    FONT-family: "Impact";
+}
+
+.colonne {
+    text-align: center;
+    FONT-family: "arial";
+}
+
+.bouton {
+    FONT-family: "arial";
+    text-align: center;
+}
+
+.check {
+    text-align: left;
+    FONT-family: "arial";
+}

@@ -1,0 +1,56 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Connexion
+{% endblock %}
+
+{% block stylesheets %}
+<link rel="stylesheet" type="text/css" href="css/creer_modifier.css">
+{% endblock %}
+
+{% block body %}
+	<div class="d-flex justify-content-center">
+        <div class="col-md-x">
+            <h1 class="center">Créer une entreprise</h1>
+            <br>
+            <div class="colonne">
+
+                <input type="text" id="nomentreprise" name="nomentreprise" placeholder="Nom" class="authentification-nomentreprise" required>
+            </div>
+            <br>
+            <div class="colonne">
+
+                <input type="text" id="secteurentreprise" name="secteuentrepriser" placeholder="Secteur d'activité" class="authentification-secteurentreprise" required>
+            </div>
+            <br>
+            <div class="colonne">
+
+                <input type="text" id="competenceentreprise" name="competenceentreprise" placeholder="Compétence recherchée" class="authentification-compétenceentreprise" required>
+            </div>
+            <br>
+            <div class="colonne">
+
+                <input type="text" id="localitéentreprise" name="localtéentreprise" placeholder="Localité" class="authentification-localitéentreprise" required>
+            </div>
+            <br>
+            <div class="colonne">
+
+                <input type="text" id="stagiaireentreprise" name="stagiaireentreprise" placeholder="Nombre de stagiaires CESI déja embauchés" class="authentification-stagiaireentreprise" required>
+            </div>
+            <br>
+            <div class="colonne">
+
+                <input type="text" id="confianceentreprise" name="confianceentreprise" placeholder="Confiance du pilote de promotion" class="authentification-confianceentreprise" required>
+            </div>
+            <br>
+            <br>
+
+            <form method="post">
+                <div class="bouton">
+                    <input type="submit" value="Créer l'entreprise" class="btn btn-primary">
+                </div>
+                <br>
+
+            </form>
+        </div>
+    </div>
+{% endblock %}
