@@ -1,54 +1,6 @@
-/*--------------- Common ---------------*/
-
-html,
-body {
-    background: #eee !important;
-    width: 100%;
-    scroll-behavior: smooth;
-}
-
-.linkwithpersonnalstyle:hover {
-    text-decoration: none;
-    background-color: gold;
-}
-
-.borderB {
-    border: 1px solid #000;
-}
-
-
-/*---------------- header ---------------*/
-
-
-/*////////////////////////////*/
-
-.header {
-    background-color: #fff;
-    text-align: center;
-    padding: 20px;
-    font-family: "arial";
-}
-
 .center {
     text-align: center;
 }
-
-.headerheight {
-    height: 200px;
-    text-align: center;
-}
-
-
-/*---------------- menu -------------------*/
-
-
-/*--------------- Main block ---------------*/
-
-
-/*----------------- bouton to the top ----------------------*/
-
-
-/*---------------- Connexion ---------------*/
 
 input {
     width: 80%;
@@ -64,9 +16,4 @@ input {
 .bouton {
     position: relative;
     padding-left: 30px;
-}
-
-.mdpPosition {
-    position: relative;
-    padding-left: 35px;
 }
