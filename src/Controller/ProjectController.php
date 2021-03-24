@@ -158,4 +158,44 @@ class ProjectController extends AbstractController
             'controller_name' => 'ProjectController',
         ]);
     }
+
+    /**
+     * @Route("/assigner_droit", name="assigner_droit")
+     */
+    public function assigner_droit(): Response
+    {
+        return $this->render('project/assigner_droit.html.twig', [
+            'controller_name' => 'ProjectController',
+        ]);
+    }
+
+    /**
+     * @Route("/statistique_entreprise", name="statistique_entreprise")
+     */
+    public function statistique_entreprise(): Response
+    {
+        return $this->render('project/statistique_entreprise.html.twig', [
+            'controller_name' => 'ProjectController',
+        ]);
+    }
+
+    /**
+     * @Route("/statistique_offre", name="statistique_offre")
+     */
+    public function statistique_offre(): Response
+    {
+        return $this->render('project/statistique_offre.html.twig', [
+            'controller_name' => 'ProjectController',
+        ]);
+    }
+
+    /**
+     * @Route("/statistique_compte", name="statistique_compte")
+     */
+    public function statistique_compte(): Response
+    {
+        return $this->render('project/statistique_compte.html.twig', [
+            'controller_name' => 'ProjectController',
+        ]);
+    }
 }

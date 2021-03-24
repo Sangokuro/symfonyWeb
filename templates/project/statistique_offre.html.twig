@@ -1,0 +1,60 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Connexion
+{% endblock %}
+
+{% block stylesheets %}
+<link rel="stylesheet" type="text/css" href="css/statistique.css">
+{% endblock %}
+
+{% block body %}
+	<h1> Statistiques Offre </h1>
+
+        <br />
+
+<div class="container">
+
+        <form class="">
+
+<div class="form-group row">
+    <label for="periode" class="">Etendue de la période d'analyse avant ce jour en mois :</label>
+    <div class="col-sm-1">
+      <input type="text" class="form-control" id="periode" NAME="periode" VALUE="">
+    </div>
+</div>
+
+<div class="form-group row">
+<label for="nombre" class="">Moyenne du temps de mission des offres :
+</label>
+    <div class="col-sm-1">
+      <input type="text" class="form-control" id="nombre" NAME="nombre" VALUE="">
+    </div>
+    </div>
+
+    <div class="form-group row">
+<label for="offre" class="">Nombre totales des offres postées : </label>
+    <div class="col-sm-1">
+      <input type="text" class="form-control" id="offre" NAME="offre" VALUE="">
+    </div>
+    </div>
+
+    
+    <div class="form-group row">
+<label for="moyenne" class="">Compétence la plus recherchée : </label>
+    <div class="col-sm-1">
+      <input type="text" class="form-control" id="moyenne" NAME="moyenne" VALUE="">
+    </div>
+    </div>
+
+    
+    <div class="form-group row">
+<label for="nbEtudiant" class="">La localisation la plus demandée :</label>
+    <div class="col-sm-1">
+      <input type="text" class="form-control" id="nbEtudiant" NAME="nbEtudiant" VALUE="">
+    </div>
+    </div>
+
+    
+    
+</form>
+{% endblock %}

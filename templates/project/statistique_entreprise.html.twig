@@ -1,0 +1,83 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Connexion
+{% endblock %}
+
+{% block stylesheets %}
+<link rel="stylesheet" type="text/css" href="css/statistique.css">
+{% endblock %}
+
+{% block body %}
+	 <h1> Statistiques Entreprise </h1>
+
+        <br />
+
+<div class="container">
+
+        <form class="">
+
+<div class="form-group row">
+    <label for="periode" class="">Etendue de la période d'analyse avant ce jour en mois :</label>
+    <div class="col-sm-1">
+      <input type="text" class="form-control" id="periode" NAME="periode" VALUE="">
+    </div>
+</div>
+
+<div class="form-group row">
+<label for="nombre" class="">Nombre d'offres postées en moyenne par les entreprises : 
+</label>
+    <div class="col-sm-1">
+      <input type="text" class="form-control" id="nombre" NAME="nombre" VALUE="">
+    </div>
+    </div>
+
+    <div class="form-group row">
+<label for="offre" class="">Entreprise qui a posté le plus d'offres :  </label>
+    <div class="col-sm-1">
+      <input type="text" class="form-control" id="offre" NAME="offre" VALUE="">
+    </div>
+    </div>
+
+    
+    <div class="form-group row">
+<label for="moyenne" class="">Nombre moyen d'étudiants du CESI pris par les entreprises : </label>
+    <div class="col-sm-1">
+      <input type="text" class="form-control" id="moyenne" NAME="moyenne" VALUE="">
+    </div>
+    </div>
+
+    
+    <div class="form-group row">
+<label for="nbEtudiant" class="">Entreprise qui a pris le plus d'étudiant du CESI :</label>
+    <div class="col-sm-1">
+      <input type="text" class="form-control" id="nbEtudiant" NAME="nbEtudiant" VALUE="">
+    </div>
+    </div>
+
+    
+    <div class="form-group row">
+<label for="topEtu" class="">Meilleure note moyenne des entreprises attribuées par les étudiants :
+</label>
+    <div class="col-sm-1">
+      <input type="text" class="form-control" id="topEtu" NAME="topEtu" VALUE="">
+    </div>
+    </div>
+
+    <div class="form-group row">
+<label for="topPil" class="">Meilleure note moyenne des entreprises attribuées par les pilotes :
+</label>
+    <div class="col-sm-3">
+      <input type="text" class="form-control" id="topPil" NAME="topPil" VALUE="" placeholder="Entrer la compétence">
+    </div>
+    </div>
+    
+    <div class="form-group row">
+<label for="competence" class="">Nombre entreprise proposant cette compétence :</label>
+    <div class="col-sm-1">
+      <input type="text" class="form-control" id="competence" NAME="competence" VALUE="">
+    </div>
+    </div>
+</form>
+
+</div>
+{% endblock %}

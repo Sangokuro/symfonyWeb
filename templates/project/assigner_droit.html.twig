@@ -1,0 +1,123 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Connexion
+{% endblock %}
+
+{% block stylesheets %}
+<link rel="stylesheet" type="text/css" href="css/creer_modifier.css">
+{% endblock %}
+
+{% block body %}
+	<h1 class="center">Droit de [mettre nom et Prenom hein MOH]</h1>
+    <div class="d-flex justify-content-center">
+        <div class="li-5">
+
+            <br>
+            <div class="check">
+                <div>
+                    <input type="checkbox" id="rcomptepilote" name="rcomptepilote"
+                           checked>
+                    <label for="rcomptepilote">Rechercher un compte pilote</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="ccomptepilote" name="ccomptepilote"
+                           checked>
+                    <label for="ccomptepilote">Créer un compte pilote</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="mcomptepilote" name="mcomptepilote"
+                           checked>
+                    <label for="mcomptepilote">Modifier un compte pilote</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="scomptepilote" name="scomptepilote"
+                           checked>
+                    <label for="scomptepilote">Supprimer un compte pilote</label>
+                </div>
+                <br>
+                <div>
+                    <input type="checkbox" id="rcomptedelegue" name="rcomptedelegue"
+                           checked>
+                    <label for="rcomptedelegue">Rechercher un compte délégué</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="ccomptedelegue" name="ccomptedelegue"
+                           checked>
+                    <label for="ccomptedelegue">Créer un compte délégué</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="mcomptedelegue" name="mcomptedelegue"
+                           checked>
+                    <label for="mcomptedelegue">Modifier un compte délégué</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="scomptedelegue" name="scomptedelegue"
+                           checked>
+                    <label for="scomptedelegue">Supprimer un compte délégué</label>
+                </div>
+                <br>
+                <div>
+                    <input type="checkbox" id="rcompteetudiant" name="rcompteetudiant"
+                           checked>
+                    <label for="rcompteetudiant">Rechercher un compte étudiant</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="ccompteetudiant" name="ccompteetudiant"
+                           checked>
+                    <label for="ccompteetudiant">Créer un compte étudiant</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="mcompteetudiant" name="mcompteetudiant"
+                           checked>
+                    <label for="mcompteetudiant">Modifier un compte étudiant</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="scompteetudiant" name="scompteetudiant"
+                           checked>
+                    <label for="scompteetudiant">Supprimer un compte étudiant</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="statcompteetudiant" name="statcompteetudiant"
+                           checked>
+                    <label for="statcompteetudiant">Consulter les statistiques des étudiants</label>
+                </div>
+                <br>
+                <div>
+                    <input type="checkbox" id="creeroffre" name="creeroffre"
+                           checked>
+                    <label for="creeroffre">Créer une offre</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="modifieroffre" name="modifieroffre"
+                           checked>
+                    <label for="modifieroffre">Modifier une offre</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="supprimeroffre" name="supprimeroffre"
+                           checked>
+                    <label for="supprimeroffre">Supprimer une offre</label>
+                </div>
+                <br>
+                <div>
+                    <input type="checkbox" id="avancement3" name="avancement3"
+                           checked>
+                    <label for="avancement3">Connaître l'avancement d'une candidature step 3</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="avancement4" name="avancement4"
+                           checked>
+                    <label for="avancement4">Connaître l'avancement d'une candidature step 4</label>
+                </div>
+            </div>
+            <br>
+            <form method="post">
+                <div class="bouton">
+                    <input type="submit" value="Valider" class="btn btn-primary">
+                </div>
+                <br>
+
+            </form>
+
+        </div>
+    </div>
+{% endblock %}

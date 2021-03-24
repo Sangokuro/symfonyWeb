@@ -1,0 +1,70 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Connexion
+{% endblock %}
+
+{% block stylesheets %}
+<link rel="stylesheet" type="text/css" href="css/statistique.css">
+{% endblock %}
+
+{% block body %}
+	<h1> Statistiques Compte </h1>
+
+    <br />
+
+    <div class="container">
+
+        <form class="">
+
+            <div class="form-group row">
+                <label for="periode" class="">Etendue de la période d'analyse avant ce jour en mois :</label>
+                <div class="col-sm-1">
+                    <input type="text" class="form-control" id="periode" NAME="periode" VALUE="">
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label for="nombre" class="">Pourcentage d'étudiants ayant trouvé une entreprise :
+                </label>
+                <div class="col-sm-1">
+                    <input type="text" class="form-control" id="nombre" NAME="nombre" VALUE="">
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label for="offre" class="">Nombre d'étudiants recensés sur le site : </label>
+                <div class="col-sm-1">
+                    <input type="text" class="form-control" id="offre" NAME="offre" VALUE="">
+                </div>
+            </div>
+
+
+            <div class="form-group row">
+                <label for="moyenne" class="">Nombre de tuteurs recensés sur le site : </label>
+                <div class="col-sm-1">
+                    <input type="text" class="form-control" id="moyenne" NAME="moyenne" VALUE="">
+                </div>
+            </div>
+
+
+            <div class="form-group row">
+                <label for="nbEtudiant" class="">Nombre de demandes envoyées par :</label>
+                <div class="col-sm-1">
+                    <input type="text" class="form-control" id="nbEtudiant" NAME="nbEtudiant" VALUE="">
+                </div>
+            </div>
+
+
+            <div class="form-group row">
+                <label for="topEtu" class="">Nombre d'étudiant à la l'étape :
+                </label>
+                <div class="col-sm-1">
+                    <input type="text" class="form-control" id="topEtu" NAME="topEtu" VALUE="">
+                </div>
+            </div>
+
+            
+        </form>
+
+    </div>
+{% endblock %}
