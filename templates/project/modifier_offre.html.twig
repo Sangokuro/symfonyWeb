@@ -1,0 +1,78 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Connexion
+{% endblock %}
+
+{% block stylesheets %}
+<link rel="stylesheet" type="text/css" href="css/creer_modifier.css">
+{% endblock %}
+
+{% block body %}
+	<div class="d-flex justify-content-center">
+        <div class="col-md-x">
+            <h1 class="center">Modifier une offre</h1>
+            <div class="colonne">
+
+                <input type="date" id="dateoffre" name="dateoffre" placeholder="Date du jour" class="authentification-dateoffre" required>
+            </div>
+            <br>
+            <div class="colonne">
+
+                <input type="text" id="entrepriseoffre" name="entrepriseoffre" placeholder="Nom de l'entreprise" class="authentification-entrepriseoffre" required>
+            </div>
+            <br>
+            <div class="colonne">
+
+                <input type="text" id="competence1offre" name="competence1offre" placeholder="Compétence 1" class="authentification-compétence1offre" required>
+            </div>
+            <br>
+            <div class="colonne">
+
+                <input type="text" id="competence2offre" name="competence2offre" placeholder="Compétence 2" class="authentification-compétence2offre" required>
+            </div>
+            <br>
+            <div class="colonne">
+
+                <input type="text" id="competence3offre" name="competence3offre" placeholder="Compétence 3" class="authentification-compétence3offre" required>
+            </div>
+            <br>
+            <div class="colonne">
+
+                <input type="text" id="localitéoffre" name="localtéoffre" placeholder="Localité" class="authentification-localitéoffre" required>
+            </div>
+            <br>
+            <div class="colonne">
+
+                <input type="text" id="duréeoffre" name="duréeoffre" placeholder="Durée du stage" class="authentification-duréeoffre" required>
+            </div>
+            <br>
+            <div class="colonne">
+
+                <input type="text" id="baseoffre" name="baseoffre" placeholder="Base de rémunération" class="authentification-baseoffre" required>
+            </div>
+            <br>
+            <div class="colonne">
+
+                <input type="text" id="niveauoffre" name="niveauoffre" placeholder="Niveau recherché" class="authentification-niveauoffre" required>
+
+            </div>
+            <br>
+            <div class="colonne">
+
+                <input type="text" id="placeoffre" name="placeoffre" placeholder="Nombre de places" class="authentification-placeoffre" required>
+            </div>
+            <br>
+
+            <br>
+            <br>
+
+            <form method="post">
+                <div class="bouton">
+                    <input type="submit" value="Modifier l'offre" class="btn btn-primary">
+                </div>
+                <br>
+
+            </form>
+        </div>
+    </div>
+{% endblock %}

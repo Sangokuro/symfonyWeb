@@ -1,0 +1,51 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Connexion
+{% endblock %}
+
+{% block stylesheets %}
+<link rel="stylesheet" type="text/css" href="css/creer_modifier.css">
+{% endblock %}
+
+{% block body %}
+	<div class="d-flex justify-content-center">
+        <div class="col-md-x">
+            <h1 class="center">Modifier Compte</h1>
+            <div class="colonne">
+                <br>
+                <input type="text" id="nomcompte" name="nomcompte" placeholder="Nom" class="authentification-nomcompte" required>
+            </div>
+            <br>
+            <div class="colonne">
+
+                <input type="text" id="prenomcompte" name="prenomcompte" placeholder="Prenom" class="authentification-prenomcompte" required>
+            </div>
+            <br>
+            <div class="colonne">
+
+                <input type="text" id="centrecompte" name="centrecompte" placeholder="Centre" class="authentification-centrecompte" required>
+            </div>
+            <br>
+            <div class="colonne">
+
+                <input type="text" id="promotioncompte" name="promotioncompte" placeholder="Promotion" class="authentification-promotioncompte" required>
+            </div>
+            <br>
+            <div class="colonne">
+
+                <input type="text" id="rolecompte" name="rolecompte" placeholder="Role" class="authentification-rolecompte" required>
+            </div>
+
+            <br>
+            <br>
+
+            <form method="post">
+                <div class="bouton">
+                    <input type="submit" value="modifier compte" class="btn btn-primary">
+                </div>
+                <br>
+
+            </form>
+        </div>
+    </div>
+{% endblock %}
