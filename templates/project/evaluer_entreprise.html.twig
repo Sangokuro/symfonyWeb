@@ -1,0 +1,54 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Connexion
+{% endblock %}
+
+{% block stylesheets %}
+<link rel="stylesheet" type="text/css" href="css/evaluer_entreprise.css">
+{% endblock %}
+
+{% block body %}
+	<h1>Evaluer une Entreprise</h1>
+
+    <form class="">
+
+        <div class="rangement">
+
+            <div class="">
+                <label for="nom" class="">Nom de l'entreprise :</label>
+                <div class="">
+                    <input type="text" class="txtEntreprise" id="nom" NAME="nom" VALUE="">
+                </div>
+            </div>
+
+            <div id="rhalis" class="rating">
+
+                <a href="#5" title="Donner 5 étoiles">☆</a>
+
+                <a href="#4" title="Donner 4 étoiles">☆</a>
+
+                <a href="#3" title="Donner 3 étoiles">☆</a>
+
+                <a href="#2" title="Donner 2 étoiles">☆</a>
+
+                <a href="#1" title="Donner 1 étoile">☆</a>
+
+            </div>
+
+            <div class="">
+                <label for="commentaire" class="col-3-7 col-form-label">Commentaire (Falcutatif):
+                </label>
+                <div class="">
+                    <textarea class="form-control" id="commentaire" NAME="commentaire" VALUE=""></textarea>
+                </div>
+            </div>
+            <br />
+            <div class="">
+                <div class="">
+                    <input type="submit" value="Evaluer l'entreprise">
+                </div>
+            </div>
+
+        </div>
+    </form>
+{% endblock %}

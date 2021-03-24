@@ -198,4 +198,24 @@ class ProjectController extends AbstractController
             'controller_name' => 'ProjectController',
         ]);
     }
+
+    /**
+     * @Route("/evaluer_entreprise", name="evaluer_entreprise")
+     */
+    public function evaluer_entreprise(): Response
+    {
+        return $this->render('project/evaluer_entreprise.html.twig', [
+            'controller_name' => 'ProjectController',
+        ]);
+    }
+
+    /**
+     * @Route("/wishList", name="wishList")
+     */
+    public function wishList(): Response
+    {
+        return $this->render('project/wishList.html.twig', [
+            'controller_name' => 'ProjectController',
+        ]);
+    }
 }
