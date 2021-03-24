@@ -1,0 +1,10 @@
+.footer1 {
+    FONT-family: "arial";
+    text-align: center;
+}
+
+#deconnexion{
+	position: absolute;
+    right: 25px;
+    font-size: 1.2em;
+}

@@ -1,0 +1,37 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Connexion
+{% endblock %}
+
+{% block stylesheets %}
+<link rel="stylesheet" type="text/css" href="css/connexion.css">
+{% endblock %}
+
+{% block body %}
+	<div class="d-flex justify-content-center">
+		<div class="col-md-x">
+			<h1 class="center">Connexion</h1>
+			<form action="principal.php" method="post">
+				<div class="colonne">
+					<label for="login" class="">
+						Entrez votre login :</label>
+					<input type="Login" id="Login" name="Login" class="Login" required>
+				</div>
+				<div class="colonne">
+					<label for="password">
+						Entrez votre mot de passe :</label>
+					<input type="pass" id="pass" name="pass" class="pass" required>
+				</div>
+				<br>
+				<br>
+				<div class="bouton">
+					<input type="submit" name="Connexion" class="btn btn-primary">
+				</div>
+				<br>
+				<div class="">
+					<a href="" class="mdpPosition">Mot de passe oublié ?</a>
+				</div>
+			</form>
+		</div>
+	</div>
+{% endblock %}
