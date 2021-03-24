@@ -1,0 +1,76 @@
+ul {
+    text-align: center;
+}
+
+li {
+    font-size: 1.4em;
+}
+
+.carre {
+    font-family: "arial";
+    FONT-size: 16pt;
+    width: 90%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 3px solid #A0A0A0;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: left;
+    background: #C0C0C0;
+}
+
+ul {
+    list-style: none;
+}
+
+.cacher {
+    display: none;
+}
+
+.headerheight {
+    height: 200px;
+    text-align: center;
+}
+
+.borderB {
+    border: 1px solid #000;
+}
+
+
+/*--------------- Common ---------------*/
+
+body {
+    background: #eee !important;
+    width: 100%;
+    font-family: 'Happy Monkey', cursive;
+    scroll-behavior: smooth;
+}
+
+
+/*---------------- header ---------------*/
+
+.header {
+    background-color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-family: "arial";
+}
+
+
+/*---------------- menu -------------------*/
+
+
+/*--------------- Main block ---------------*/
+
+
+/*----------------- bouton to the top ----------------------*/
+
+
+/*---------------- Pied de page ---------------*/
+
+.footer1 {
+    FONT-family: "arial";
+    text-align: center;
+}
