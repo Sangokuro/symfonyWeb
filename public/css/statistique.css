@@ -1,0 +1,14 @@
+h1 {
+    text-decoration: underline;
+    text-align: center;
+}
+
+label {
+    font-size: 30px;
+}
+
+.rangement {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
