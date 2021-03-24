@@ -28,4 +28,14 @@ class ProjectController extends AbstractController
             'controller_name' => 'ProjectController',
         ]);
     }
+
+    /**
+     * @Route("/menu", name="menu")
+     */
+    public function menu(): Response
+    {
+        return $this->render('project/menu.html.twig', [
+            'controller_name' => 'ProjectController',
+        ]);
+    }
 }
