@@ -138,4 +138,24 @@ class ProjectController extends AbstractController
             'controller_name' => 'ProjectController',
         ]);
     }
+
+    /**
+     * @Route("/comparaison_entreprise", name="comparaison_entreprise")
+     */
+    public function comparaison_entreprise(): Response
+    {
+        return $this->render('project/comparaison_entreprise.html.twig', [
+            'controller_name' => 'ProjectController',
+        ]);
+    }
+
+    /**
+     * @Route("/comparaison_offre", name="comparaison_offre")
+     */
+    public function comparaison_offre(): Response
+    {
+        return $this->render('project/comparaison_offre.html.twig', [
+            'controller_name' => 'ProjectController',
+        ]);
+    }
 }

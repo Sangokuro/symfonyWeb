@@ -1,0 +1,41 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Connexion
+{% endblock %}
+
+{% block stylesheets %}
+<link rel="stylesheet" type="text/css" href="css/comparaison.css">
+{% endblock %}
+
+{% block body %}
+	<h1>Comparaison</h1>
+
+
+    <div class="container-xl">
+        <div class="row">
+            <div class="col-6">
+                <fieldset class="carre">
+                    <legend>Entreprise 1</legend>
+                    <p>jfdsoigj pghuiopjfiepodnv udpjisv poifjvnud jiqojpfdi i
+                        fhdsui fhsi uisdhofdupsfqu hdsiofh duqspfhudqosi f
+                    </p>
+                </fieldset>
+                <div class="bouton">
+                    <input type="button" name="Envoyer" value="Voir la fiche" class="btn btn-primary">
+                </div>
+
+            </div>
+            <div class="col-6">
+                <fieldset class="carre">
+                    <legend>Entreprise 2</legend>
+                    <p>jfdsoigj pghuiopjfiepodnv udpjisv poifjvnud jiqojpfdi i
+                        fhdsui fhsi uisdhofdupsfqu hdsiofh duqspfhudqosi f
+                    </p>
+                </fieldset>
+                <div class="bouton">
+                    <input type="button" name="Envoyer" value="Voir la fiche" class="btn btn-primary">
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
